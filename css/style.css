@@ -34,6 +34,38 @@
 	justify-content: space-between;
 	align-items: center;
 }
+.userImg{
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+            .userImg img{
+                width: 180px;
+                height: 205px;
+            }
+            .userName{
+                margin-bottom: 4px;
+            }
+            
+            .userTag{
+                margin-bottom: 4px;
+            }
+            .userLi{
+                margin-bottom: 51px;
+            }
+            .userLi li{
+                margin-bottom: 12px;
+            }
+            .janTitle span{
+                float: right;
+                color: #666;
+            }
+            .infoLeft{
+                min-width: 80px;
+            }
+            .experience-list li{
+                margin-bottom: 30px;
+            }
+
 span {
     display: inline-block;
 }
