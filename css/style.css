@@ -24,6 +24,7 @@
 .icon-playlistadd:before { content: "\ecae"; }
 .icon-delete:before { content: "\e61b"; }
 .icon-trophy:before { content: "\e80b"; }
+.clearfloat::after{display: block;content: '';height: 0;width: 0;clear: both}
 
 .inlink-flex{
 	display: flex;
@@ -344,9 +345,12 @@ ul li{
 		width: 100%;
 	}
     .main{
-        margin-left: 290px;
+        margin-left: 320px;
+    }
+    .main a{
+        font-size: 10px;
     }
     .side{
-        width: 290px;
+        width: 320px;
     }
 }
