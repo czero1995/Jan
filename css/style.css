@@ -343,4 +343,10 @@ ul li{
 		height: auto;
 		width: 100%;
 	}
+    .main{
+        margin-left: 290px;
+    }
+    .side{
+        width: 290px;
+    }
 }
